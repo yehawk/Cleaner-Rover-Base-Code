@@ -1,7 +1,7 @@
 # Cleaner-Rover-Base-Code
 A base code for a joystick controlled rover, aimed to target working class alleys and detect specifically cigarettes (or other smaller, "white" trash) on the ground. 
 
-Video Demo:
+Video Demo: https://youtu.be/8gyM98rbsZo
 
 Description:
 The following three files are the base codes for a Raspberry Pi MicroPython powered cleaner rover. Inspired after seeing the lack of cleaning in working class alleyways in my city (especially so with cigarette tossed on the ground which are difficult to clean), I decided to create a cleaner rover with joystick controls, and an autonomous arm control system! If the machine detects a white object in it's vicinity, the arm is immediately activated and goes through with the action of picking the cigarette up and tossing it into the bin attached to the rover. Although this is not the exact code used to power the electronic parts, it is a very close simulation of how the electronic compartments will act based on a simulation web program called "Wokwi." Therfore, I had to make a lot of modifications and adjustments to import different parts that were not supported fully. Parts of the code (which are mentioned throughout the code with comments) are imported from a core.electronics tutorial on rover machines.
